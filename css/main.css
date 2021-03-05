@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid black;
+    height: 100vh;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer {
+    border: 2px solid red;
+    width: 150px;
+    margin: 10px;
+    height: auto;
+}
+
+.subcontainer div {
+    border: 1px dashed blue;
+    height: 25%;
+}
