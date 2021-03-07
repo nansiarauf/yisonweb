@@ -89,6 +89,7 @@ button {
     justify-content: center;
     padding-top: 10px;
     opacity: 70%;
+    height: 70vh;
 }
 
 .formcontainer input {
@@ -172,4 +173,16 @@ hr {
     direction: row;
     margin: 20px;
     justify-content: center;
+}
+
+.map {
+    display: flex;
+    direction: row;
+    justify-content: center;
+}
+
+.map iframe {
+    width: 600px;
+    height: 350px;
+    border: 0;
 }
