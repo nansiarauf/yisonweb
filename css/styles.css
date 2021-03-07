@@ -32,6 +32,10 @@ body {
     text-decoration: none;
 }
 
+#nav ul li a:hover {
+    opacity: 0.5;
+}
+
 #hero {
     background-color: #b2a27b;
     color: white;
@@ -98,7 +102,11 @@ button {
     padding: 5px;
 }
 
-footer {}
+footer {
+    display: flex;
+    direction: row;
+    justify-content: center;
+}
 
 section {
     background-color: #e1e1e1;
@@ -208,4 +216,5 @@ hr {
 .fa-twitter {
     background: #55ACEE;
     color: white;
+    margin: 10px;
 }
